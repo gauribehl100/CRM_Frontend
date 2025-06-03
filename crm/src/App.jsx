@@ -434,7 +434,7 @@ const App = () => {
     setLoadingCampaigns(true);
     try {
       console.log('Fetching campaigns from backend...');
-      const response = await fetch('http://localhost:5000/api/campaigns?limit=100');
+      const response = await fetch('https://crm-backend-1rrr.onrender.com/api/campaigns?limit=100');
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
