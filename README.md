@@ -1,6 +1,7 @@
-CRM Frontend
+#CRM Frontend
 This is the frontend application for the CRM system.
-Features
+
+#Features
 User authentication (login)
 
 Campaign Management 
@@ -27,7 +28,7 @@ cd crm-frontend
 Install dependencies
 
 npm install
-# or
+ or
 yarn install
 Create a .env file in the root directory and add your environment variables (if any), for example:
 
@@ -35,7 +36,7 @@ REACT_APP_API_URL=https://your-api-url.com
 Run the development server
 
 npm start
-# or
+ or
 yarn start
 The app will run on http://localhost:3000 by default.
 
