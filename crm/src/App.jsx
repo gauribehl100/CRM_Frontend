@@ -434,7 +434,7 @@ const App = () => {
     setLoadingCampaigns(true);
     try {
       console.log('Fetching campaigns from backend...');
-      const response = await fetch('https://crm-backend-1rrr.onrender.com/api/campaigns?limit=100');
+      const response = await fetch('https://crm-backend-1-0qgs.onrender.com/api/campaigns?limit=100');
       
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -529,7 +529,7 @@ const App = () => {
   try {
     console.log('Saving campaign:', currentCampaign);
     
-    const response = await fetch('https://crm-backend-1rrr.onrender.com/api/campaigns', {
+    const response = await fetch('https://crm-backend-1-0qgs.onrender.com/api/campaigns', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
