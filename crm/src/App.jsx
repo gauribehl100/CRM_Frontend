@@ -529,7 +529,7 @@ const App = () => {
   try {
     console.log('Saving campaign:', currentCampaign);
     
-    const response = await fetch('http://localhost:5000/api/campaigns', {
+    const response = await fetch('https://crm-backend-1rrr.onrender.com/api/campaigns', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
