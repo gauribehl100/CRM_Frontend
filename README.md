@@ -1,14 +1,14 @@
-#CRM Frontend
+# Frontend of CRM
 This is the frontend application for the CRM system.
 
-#Features
+# Features
 User authentication (login)
 
 Campaign Management 
 
 Audience Preview
 
-Tech Stack
+# Tech Stack
 React.js (or specify your frontend framework)
 
 Redux or Context API (for state management, if used)
@@ -19,10 +19,11 @@ React Router (for routing)
 
 Tailwind CSS 
 
-Installation
+# Installation
 Clone the repository
 
 git clone https://github.com/your-username/crm-frontend.git
+
 cd crm-frontend
 
 Install dependencies
