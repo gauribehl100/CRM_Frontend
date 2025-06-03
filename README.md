@@ -45,5 +45,5 @@ Build
 To create a production build:
 
 npm run build
-# or
+ or
 yarn build
